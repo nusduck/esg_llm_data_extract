@@ -1,0 +1,242 @@
+## Metrics to Capture
+
+### Units of Measurement
+
+- **Energy Units**: MWhs, GJ
+- **GHG Emissions Units**: tCO2e
+- **Water Units**: ML, m³
+- **Waste Units**: t
+- **Percentage**: %
+- **Number**: #
+- **Hours**: hrs
+
+### 1. Environmental Topics
+
+- **Greenhouse Gas Emissions (GHG) Metrics**
+  - GHG absolute emissions by: (a) Total; (b) Scope 1, Scope 2; and (c) Scope 3, if appropriate (Code: 1-1-1, Units: tCO2e)
+  - GHG emission intensities by: (a) Total; (b) Scope 1, Scope 2; and (c) Scope 3, if appropriate (Code: 1-1-1, Units: tCO2e/organisation-specific metrics)
+
+- **Energy Consumption Metrics**
+  - Total energy consumption (Code: 1-2-1, Units: MWhs or GJ)
+  - Energy consumption intensity (Code:1-2-2, Units: MWhs or GJ/organisation-specific metrics)
+
+- **Water Consumption Metrics**
+  - Total water consumption (Code:1-3-1, Units: ML or m³)
+  - Water consumption intensity (Code: 1-3-2, Units: ML or m³/organisation-specific metrics)
+
+- **Waste Generation Metrics**
+  - Total waste generated (Code: 1-4-1, Units: t)
+
+### 2. Social Topics
+
+- **Gender Diversity Metrics**
+  - Current employees percentage by gender: (a) Female/Woman; (b) Male/Man (Code: 2-1-1, Units: %)
+  - New hires percentage by gender: (a) Female/Woman; (b) Male/Man (Code: 2-1-2, Units: %)
+  - Employees Turnover or attrition by gender:  (a) Female/Woman; (b) Male/Man (Code: 2-1-3, Units: %)
+
+- **Age-Based Diversity Metrics**
+  - Current employees by age groups: (a) below 30 (b) 30-50 (c) over 30 (Code: 2-2-1, Units: %) 
+  - Employees new hires by age groups:  (a) below 30 (b) 30-50 (c) over 50(Code:2-2-2, Units: %)
+  - Employees turnover or attrition by age groups:  (a) below 30 (b) 30-50 (c) over 50 (Code: 2-2-3, Units: %)
+
+- **Employment Metrics**
+  - Total turnover or attrition number of employees (Code: 2-3-1, Units: # and %)
+  - Total number of employees (Code: 2-3-2, Units: #)
+
+- **Development & Training Metrics**
+  - Average training hours per employee (Code: 2-4-1, Units: hrs/# of employees)
+  - Average training hours per employee by gender (Code:2-4-2, Units: hrs/# of employees)
+
+- **Occupational Health & Safety Metrics**
+  - Fatalities (Code: 2-5-1, Units: # of cases)
+  - High-consequence injuries (Code: 2-5-2, Units: # of cases)
+  - Recordable injuries (Code: 2-5-3, Units: # of cases)
+  - Recordable work-related ill health cases (Code: 2-5-4, Units: # of cases)
+
+### 3. Governance Topics
+
+- **Board Composition Metrics**
+  - Board independence (Code: 3-1-1, Units: % or #)
+  - Women on the board (Code: 3-1-2, Units: % or #)
+- **Management Diversity Metrics**
+  - Women in the management team (Code: 3-2-1, Units: %)
+- **Ethical Behaviour Metrics**
+  - Anti-corruption disclosures (Code: 3-3-1, Units: #)
+  - Anti-corruption training for employees (Code: 3-3-2, Units: # and %)
+- **Certifications Metrics**
+  - List all sustainability or ESG-related certification (e.g. ISO 45000 family, BCA Green Building, LEED, ENERGY STAR and so on). (Code:3-4-1,Units: None) .
+- **Alignment with Frameworks Metrics**
+  - Alignment with frameworks and disclosure practices (e.g. GRI/ TCFD/ SASB/ SDGs/ others) (Code: 3-5-1,Units: None) 
+- **Assurance Metrics**
+  - Assurance of sustainability report (e.g. Internal/External/None) (Code: 3-5-2,Units: None)
+
+## Steps to Follow
+
+1. Ingredient Gathering
+   - Capture all relevant categories of data as listed above.
+   - Include the page number and a snippet of the text where the data was found.
+
+2. Raw Value Extraction
+   - Extract raw values for all categories.
+   - Include the page number and a snippet of the text where the data was found.
+   - If multiple data points have the same label but different contexts, include the context label and reasoning.
+   - Provide a relevant information summary field if applicable.
+
+3. Year Extraction
+   - Determine the reporting year for each data point.
+
+4. Scope Determination
+   - Default scope is "Total" for most metrics.
+   - For gender-related metrics (e.g., employees by gender, board gender diversity), use "Male", "Female" as the scope.
+   - For age-related metrics (e.g., employees by age group), use "Different Age Group" as the scope (e.g. below 30, 30-50,over 50).
+   - For region-specific data, use "Regional" as the scope and specify the region in the relevant information.
+
+5. Flag Assignment
+   - Assign "Full" flag if the data covers the entire organization or the full scope of the metric.
+   - Assign "Partial" flag if the data is limited to specific departments, regions, or subsets of the company's operations.
+   - Provide clear reasoning for the flag assignment in the flag_reasoning field.
+
+6. Framework Alignment
+   - Identify and list all relevant reporting frameworks (e.g., GRI, TCFD, SASB, WEF, SDGs).
+
+7. Final Answer Compilation
+   - Compile a comprehensive report for each identified year and metric.
+   - Ensure to include metadata for the extraction process in the final report.
+
+8. Quality Check
+   - Review all extracted data for consistency and accuracy.
+   - Ensure all required fields are filled for each metric.
+   - Verify that the units match those specified in the SGX Core ESG Metrics document.
+
+## What to Capture
+
+- All ESG metrics as defined in the SGX Core ESG Metrics document.
+- Raw values for all metrics with their respective units.
+- Data for the most recent year available.
+- Contextual information and explanations where necessary.
+
+## What to Avoid
+
+- Metrics not specified in the SGX Core ESG Metrics document.
+- Calculated or derived metrics not explicitly listed.
+- Interpretation or analysis of the data (stick to raw data and factual context).
+
+## Special Considerations
+
+- For metrics with multiple sub-categories (e.g., emissions by scope, employees by gender or age group), capture each sub-category separately if data is available.
+- If a metric is reported in a different unit than specified in the SGX document, capture it as reported but note the discrepancy in the relevant_information field.
+- For qualitative metrics (e.g., anti-corruption disclosures), capture key points or a summary in the value field and provide more details in the relevant_information field.
+- Some data may be contained in the tables or images, please don't  omission.
+- Each scope of the metrics should not be duplicated.
+
+## JSON Field Definitions
+
+- **year**: The reporting year of the data.
+- **metrics**: An array of captured energy consumption metrics, each represented as an object.
+- **code**: A unique code representing the specific metric.
+- **item**: The name of the ESG topic.
+- **metric**: The name of the name of specific value.
+- **scope**: The coverage scope of the data point. 
+- **flag**: Indicates whether the data is "Full" or "Partial".
+- **value**: The raw numerical or other type value of the metric.
+- **unit**: The unit of measurement for the data point .
+- **page_number**: The page number in the source document where the data was found.
+- **snippet**: A brief snippet of the text from the source document where the data was mentioned.
+- **relevant_information**: (Optional) Additional contextual information about the data point extracted from the source document.
+- **flag_reasoning**: A brief explanation of why the flag is 'Full' or 'Partial'.
+- **metadata**: Meta-information about the data collection process.
+  - **data_sources**: Title of the document or report from which the data was extracted.
+  - **data_collector**: Information about the individual or tool that collected the data (if applicable).
+  - **fiscal_year_end**: The end date of the fiscal year for the report (e.g., "31/12/2022").
+  - **geographical_scope**: The geographical scope of the data (e.g., "Global", "North America", "Europe").
+  - **country**: The specific country covered by the data (if applicable).
+  - **organization_name**: The name of the organization for which the data was collected.
+
+## JSON Output Format
+
+The final output should be structured as follows:
+
+{
+    "metadata": {
+        "country": "Singapore",
+        "data_collector": "ESG Book",
+        "data_sources": "UFO happy company Report 2022",
+        "fiscal_year_end": "2022",
+        "geographical_scope": "Global",
+        "organization_name": "United Overseas Bank Limited"
+    },
+    "metrics": [
+        {
+            "category": "Environmental",
+            "code": "1-1-1",
+            "flag": "Full",
+            "flag_reasoning": "The data covers the entire organization.",
+            "item": "Greenhouse Gas Emissions (GHG)",
+            "metric": "GHG absolute emissions"
+            "page_number": 7,
+            "scope": "Total",
+            "snippet": "As a start, we have covered two key carbon-emitting ecosystems, namely energy and the built environment.",
+            "unit": "tCO2e",
+            "value": "79083",
+            "relevant_information": "The six sectors are among the most important for decarbonisation. In particular, oil, gas and coal, which are the supply of fossil fuels, are responsible for 73 per cent of direct emissions globally. The power, automotive, real estate and steel sectors, through downstream usage of electricity, passenger cars, iron, steel and buildings, account for 67 per cent of emissions arising from fossil fuel combustion. Our targets in these sectors reflect our ambition to facilitate this change end to end."
+        },
+        {
+          "category": "Social",
+          "code": "2-2-3",
+          "flag": "Full",
+          "flag_reasoning": "The data covers the entire organization.",
+          "item": "Age-Based Diversity Metrics",
+          "metric": "Employees turnover or attrition by age groups"
+          "page_number": 118,
+          "scope": "between 30 and 50 years old",
+          "snippet": "Total number of employees between 30 and 50 years old is 59%",
+          "unit": "Percentage",
+          "value": "59",
+          "relevant_information": ""
+        },
+        {
+          "category": "Social",
+          "code": "2-3-2",
+          "flag": "Full",
+          "flag_reasoning": "The data covers the entire organization.",
+          "item": "Employment",
+          "metric": "Total number of employees",
+          "page_number": 118,
+          "scope": "Total",
+          "snippet": "Total number of employees is 9883",
+          "unit": "Number",
+          "value": "9883",
+          "relevant_information": ""
+        },
+
+​        {
+​            "category": "Governance",
+​            "code": "3-4-1",
+​            "flag": "Full",
+​            "flag_reasoning": "The data covers the entire organization.",
+​            "item": "Certifications",
+            "metric": "List all sustainability or ESG-related certification"
+​            "page_number": 2,
+​            "scope": "Total",
+​            "snippet": "We have obtained ISO 45000 family certification in the field of sustainability or Environmental, Social, and Governance (ESG). It helps us continuously fulfill our commitments to sustainability, environmental responsibility, and social responsibility.",
+​            "unit": "None",
+​            "value": "We got the ISO 45000 family",
+​            "relevant_information": " "
+​        },
+​        {
+​            "category": "Governance",
+​            "code": "3-5-1",
+​            "flag": "Full",
+​            "flag_reasoning": "The data covers the entire organization.",
+​            "item": "Alignment with Frameworks",
+            "metric": "Alignment with frameworks and disclosure practices"
+​            "page_number": 2,
+​            "scope": "Total",
+​            "snippet": "In aligning with the GRI Standards, we have applied the following reporting principles:",
+​            "unit": "None",
+​            "value": "GRI",
+​            "relevant_information": "This report is externally assured against the GRI Standards for sustainability reporting."
+​        }
+​    ],
+​    "year": 2022
+}

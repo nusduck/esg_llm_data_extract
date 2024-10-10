@@ -1,0 +1,26 @@
+[
+    {
+        "code": "429",
+        "item": "Total energy consumption",
+        "page_number": 50,
+        "snippet": "15,824,370",
+        "unit": "kWh",
+        "value": 15824370
+    },
+    {
+        "code": "711",
+        "item": "Total energy consumption from non-renewable sources",
+        "page_number": 50,
+        "snippet": "null",
+        "unit": "null",
+        "value": -1
+    },
+    {
+        "code": "432",
+        "item": "Total energy consumption from renewable sources",
+        "page_number": 50,
+        "snippet": "14,357",
+        "unit": "kWh",
+        "value": 14357
+    }
+]

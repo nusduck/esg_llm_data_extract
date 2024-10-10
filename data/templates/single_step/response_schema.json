@@ -1,0 +1,102 @@
+{
+  "type": "object",
+  "properties": {
+    "year": {
+      "type": "integer"
+    },
+    "metrics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "category": {
+            "type": "string",
+            "enum": ["Environmental", "Social", "Governance"]
+          },
+          "code": {
+            "type": "string"
+          },
+          "item": {
+            "type": "string"
+          },
+          "metric":{
+            "type": "string"
+          },
+          "scope": {
+            "type": "string"
+          },
+          "flag": {
+            "type": "string"
+          },
+          "value": {
+            "type": "string"
+          },
+          "unit": {
+            "type": "string"
+          },
+          "page_number": {
+            "type": "integer"
+          },
+          "snippet": {
+            "type": "string"
+          },
+          "relevant_information": {
+            "type": "string"
+          },
+          "flag_reasoning": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "category",
+          "code",
+          "item",
+          "metric",
+          "scope",
+          "flag",
+          "value",
+          "unit",
+          "page_number",
+          "snippet",
+          "flag_reasoning"
+        ]
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "data_sources": {
+          "type": "string"
+        },
+        "data_collector": {
+          "type": "string"
+        },
+        "fiscal_year_end": {
+          "type": "string"
+        },
+        "geographical_scope": {
+          "type": "string"
+        },
+        "country": {
+          "type": "string"
+        },
+        "organization_name": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "data_sources",
+        "data_collector",
+        "fiscal_year_end",
+        "geographical_scope",
+        "country",
+        "organization_name"
+      ]
+    }
+  },
+  "required": [
+    "year",
+    "metrics",
+    "metadata"
+  ]
+}
